@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'de.gurkenlabs.litiengine'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'de.gurkenlabs:litiengine:0.4.17'
+}
